@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+#app {
+    margin: 50px;
+}
+
+.home-container {
+    max-width: 1280px;
+    min-height: 200px;
+    /* background-color: lightblue; */
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.hero {
+
+    max-width: 1280px;
+    height: 200px;
+    background-color: floralwhite;
+    background-image: url(../img/thomas-bormans-pcpsVsyFp_s-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: .5;
+}
+
+.title {
+    max-width: 1280px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-top: 20px;
+text-align: center;
+
+}
+
+.main-button {
+    display: flex;
+    justify-content: center;
+}
+
+.main-button button {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+ul {}
+
+.backButton {
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.backButton button {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+   
+}
+
+.addItemInput button {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    align-items: right;
+    height: 40px;
+}
+
+li {
+cursor: pointer;
+list-style-type: none;
+height: 60px;
+display: flex;
+align-items: center;
+padding-left: 20px;
+padding-right: 20px;
+background-color: whitesmoke;
+position: relative;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 14px;
+}
+
+li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+li input {
+    margin: 0 20px;
+    padding-right: 20px;
+}
+
+li.strike {
+    text-decoration: line-through;
+}
+
+#addItem {
+    margin-top: 20px;
+    height: 60px;
+    width: 75%;
+    margin-right: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.itemAdd button {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    height: 60px;
+}
+
+.right {
+    position: absolute;
+    right: 20px;
+}
+
+.delete {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 10px;
+    margin-left: -10px;
+}
